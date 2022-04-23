@@ -21,6 +21,6 @@ spring:
 
 #socket
 socket:
-  myPort: 5555
-  yourPort: 6666
-  yourIp: 127.0.0.1
+  localPort: 5555
+  remotePort: 6666
+  remoteIp: 127.0.0.1
