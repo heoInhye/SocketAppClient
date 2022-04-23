@@ -1,0 +1,26 @@
+server:
+  port: 8765
+
+#actuator ???? ??
+#????: /actuator
+#management:
+#  endpoints:
+#    web:
+#      base-path: /hello
+
+#http://localhost:8765/h2-console
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: sa
+  h2:
+    console:
+      enabled: true
+
+#socket
+socket:
+  myPort: 5555
+  yourPort: 6666
+  yourIp: 127.0.0.1
